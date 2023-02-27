@@ -1,0 +1,18 @@
+.slideshow{
+	width: 100vw;
+	height: 50vh;
+	background-color: black;
+
+}
+
+
+.slideshow__previous{
+	margin-top: 20%;
+	right: 20rem;
+}
+
+
+.slideshow__next{
+	margin-top: 20%;
+	left: 10rem;
+}

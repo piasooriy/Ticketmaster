@@ -1,3 +1,9 @@
 *{
 	background-color: #FFFCF5;
 }
+
+
+body{
+	grid-template-columns: repeat(12, 1fr);
+	grid-column: 1 span 12;
+}

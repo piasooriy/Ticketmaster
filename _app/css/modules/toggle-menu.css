@@ -1,0 +1,10 @@
+.toggle__menu{
+ display: block;
+ padding: 0.2rem;
+}
+
+.toggle__menu-hidden{
+	display: none;
+}
+
+

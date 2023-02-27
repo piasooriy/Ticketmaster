@@ -1,0 +1,6 @@
+@import '/_app/css/reset.css';
+@import '/_app/css/base.css';
+@import '/_app/css/variables.css';
+@import '/_app/css/modules/header.css';
+@import '/_app/css/modules/toggle-menu.css';
+@import '/_app/css/modules/slideshow.css';
