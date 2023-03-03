@@ -1,0 +1,20 @@
+.event__section-events{
+	display: flex;
+	background-color: black;
+	gap: 1rem;
+}
+
+.events__section-events--info{
+	width: 5rem;
+	height: 5rem;
+	background-color: black;
+	gap: 1rem;
+}
+
+
+.event__section-filter{
+	display: flex;
+	justify-content: center;
+	gap: 5rem;
+	margin: 1rem;
+}

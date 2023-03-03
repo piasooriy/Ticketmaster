@@ -1,18 +1,44 @@
 .slideshow{
-	width: 100vw;
+	/* width: 100vw; */
 	height: 50vh;
-	background-color: black;
-
+	background-color: pink;
+	position: relative;
 }
 
+.slideshow__control{
+	display: flex;
+	gap: 90%;
+	padding: 1rem;
+	/* margin-top: 50%; */
+}
 
 .slideshow__previous{
-	margin-top: 20%;
 	right: 20rem;
 }
 
-
 .slideshow__next{
-	margin-top: 20%;
 	left: 10rem;
+}
+
+.slideshow__button-dot{
+	height: 2rem;
+	width: 2rem;
+	background-color: aquamarine;
+	border: none;
+	border-radius: 50%;
+	display: flex;
+}
+
+.slideshow__button-dots{
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+	margin-top: 40vh;
+	background-color: inherit;
+}
+
+.heart__svg{
+	background-color: inherit;
+	color: pink;
+	border-radius: 50%;
 }
