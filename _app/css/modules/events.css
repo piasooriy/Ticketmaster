@@ -1,16 +1,15 @@
 .event__section-events{
 	display: flex;
-	background-color: black;
 	gap: 1rem;
 }
 
 .events__section-events--info{
-	width: 5rem;
+	width: 10rem;
 	height: 5rem;
-	background-color: black;
-	gap: 1rem;
+	background-color: var(--tertiary-colour);
+	padding: 1rem;
+	margin: 1rem;
 }
-
 
 .event__section-filter{
 	display: flex;

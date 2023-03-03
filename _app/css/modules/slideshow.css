@@ -1,7 +1,7 @@
 .slideshow{
 	/* width: 100vw; */
 	height: 50vh;
-	background-color: pink;
+	background-color: var(--tertiary-colour);
 	position: relative;
 }
 
@@ -39,6 +39,6 @@
 
 .heart__svg{
 	background-color: inherit;
-	color: pink;
+	color: var(--tertiary-colour);
 	border-radius: 50%;
 }
