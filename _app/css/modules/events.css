@@ -1,14 +1,16 @@
 .event__section-events{
 	display: flex;
+	flex-wrap: wrap;
 	gap: 1rem;
+	justify-content: center;
 }
 
 .events__section-events--info{
-	width: 10rem;
+	width: 8rem;
 	height: 5rem;
 	background-color: var(--tertiary-colour);
 	padding: 1rem;
-	margin: 1rem;
+	justify-content: center;
 }
 
 .event__section-filter{
