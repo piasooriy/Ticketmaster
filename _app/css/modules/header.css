@@ -1,5 +1,6 @@
 .header {
 	font-size: 5rem;
 	padding: 1rem;
-	grid-column: 1/12;
+	display: flex;
+	justify-content: start;
 }

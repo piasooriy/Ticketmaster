@@ -1,8 +1,8 @@
 .slideshow{
 	/* width: 100vw; */
-	height: 50vh;
+	/* height: 50vh;
+	position: relative; */
 	background-color: var(--tertiary-colour);
-	position: relative;
 }
 
 .slideshow__control{
