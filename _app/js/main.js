@@ -1,4 +1,7 @@
-import fetchEvents from "./modules/fetch.js";
+import event from "./modules/event.js";
+import renderEvent from "./modules/eventlist.js";
 
 
-fetchEvents();
+event();
+renderEvent();
+

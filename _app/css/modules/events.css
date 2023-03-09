@@ -19,3 +19,23 @@
 	gap: 5rem;
 	margin: 1rem;
 }
+
+figure{
+	background-color: pink;
+	padding: 1rem;
+	margin: 1rem;
+	width: 50vw;
+	overflow: hidden;
+	object-fit: fill;
+	justify-content: center;
+}
+
+p{
+	justify-content: center;
+	background-color: pink;
+}
+
+img{
+	width: 40vw;
+	justify-content: center;
+}

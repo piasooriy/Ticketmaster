@@ -8,75 +8,32 @@
 	</head>
 
 	<body>
-		<main class="main">
-			<header class="header">
-				Ticketmaster
-			</header>
+			<header class="header">Ticketmaster Oslo</header>
+			<div class="header__two"></div>
+
 			</ul>
 			
-			<section class="slideshow">
-				<!-- Figure out why slideshow is not filling the entire page(there is a gap
-					at the top) which is why the controls for next and previous is not working  -->
-				<div class="slideshow__control">
-					<button class="slideshow__previous"> previous </button>
-					<button class="slideshow__next"> next</button>
-				</div>
+	
 
-				<div class="slideshow__button-dots">
-					<button class="slideshow__button-dot"><img class="heart__svg" src="./_app/svg/assets/heart.svg" alt=""></button>
-					<button class="slideshow__button-dot"><img class="heart__svg" src="./_app/svg/assets/heart.svg" alt=""></button>
-					<button class="slideshow__button-dot"><img class="heart__svg" src="./_app/svg/assets/heart.svg" alt=""></button>
-				</div>		
-			</section>
 
 			<section class="event__section">
-				<div class="event__section-filter">
-					<button class="event__section-filter--categories">Music</button>
-					<button class="event__section-filter--categories">Sports</button>
-					<button class="event__section-filter--categories">Theater</button>
-				</div>	
+				<form id="form-search" class="event__section-search--form">
+					<label class="event__section-search--form-lable" for="choose-genere">Genere</label>
+					<select class="event__section-search--form-choose" name="genere" id="choose-genere">
+						<option value="">All</option>
+						<option value="film">Film</option>
+						<option value="music">Music</option>
+						<option value="sports">Sports</option>
+						<option value="heater">Theater</option>
+					</select>
+					<button class="event__section-search--form-submit" type="submit">Enter</button>
+				</form>
+				
+
 				<section class="event__section-events">
-					<figure class="events__section-events--info">
-						<img src="" alt="">
-						<figcaption></figcaption>
-					</figure>
-					<figure class="events__section-events--info">
-						<img src="" alt="">
-						<figcaption></figcaption>
-					</figure>
-					<figure class="events__section-events--info">
-						<img src="" alt="">
-						<figcaption></figcaption>
-					</figure>
-					<figure class="events__section-events--info">
-						<img src="" alt="">
-						<figcaption></figcaption>
-					</figure>
-					<figure class="events__section-events--info">
-						<img src="" alt="">
-						<figcaption></figcaption>
-					</figure>
-					<figure class="events__section-events--info">
-						<img src="" alt="">
-						<figcaption></figcaption>
-					</figure>
-					<figure class="events__section-events--info">
-						<img src="" alt="">
-						<figcaption></figcaption>
-					</figure>
-					<figure class="events__section-events--info">
-						<img src="" alt="">
-						<figcaption></figcaption>
-					</figure>
 				</section>
 
 			</section>
-
-		</main>
-
-		<footer>
-			Don't look here 👀
-		</footer>
 	</body>
 	
 </html>
